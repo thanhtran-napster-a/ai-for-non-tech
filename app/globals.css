@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-caveat: 'Caveat', cursive;
+  --font-mono: 'Courier New', monospace;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: #FFF8F0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+  }
+  .sketch-border {
+    border: 3px solid #333;
+    border-radius: 4px;
+    box-shadow: 3px 3px 0px rgba(0,0,0,0.15);
+  }
+  .card-shadow {
+    box-shadow: 4px 4px 0px rgba(0,0,0,0.12);
+  }
+  .handwritten-underline {
+    text-decoration: underline;
+    text-decoration-color: #FF6B47;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+  }
+}
+
+/* Custom scrollbar for any scrollable content */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF6B47;
+  border-radius: 3px;
+}

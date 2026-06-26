@@ -1,6 +1,7 @@
 "use client";
 
-import SlideShow from "@/components/SlideShow";
+import dynamic from "next/dynamic";
+const SlideShow = dynamic(() => import("@/components/SlideShow"), { ssr: false });
 import Slide01 from "@/components/slides/Slide01";
 import Slide02 from "@/components/slides/Slide02";
 import Slide03 from "@/components/slides/Slide03";

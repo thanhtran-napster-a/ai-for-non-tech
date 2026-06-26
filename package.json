@@ -22,7 +22,7 @@
   "homepage": "https://github.com/thanhtran-napster-a/ai-for-non-tech#readme",
   "dependencies": {
     "framer-motion": "^11.18.2",
-    "next": "^15.3.4",
+    "next": "^15.3.9",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
@@ -32,7 +32,7 @@
     "@types/react-dom": "^19.1.5",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.39.4",
-    "eslint-config-next": "^15.3.3",
+    "eslint-config-next": "^15.3.9",
     "postcss": "^8.5.4",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3"
